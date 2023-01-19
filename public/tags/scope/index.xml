@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scope on Towards open and FAIR hardware</title>
+    <link>/tags/scope.html</link>
+    <description>Recent content in scope on Towards open and FAIR hardware</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/scope/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Work in progress - No1</title>
+      <link>/blog/2022/05/23/2022-05-23-work-in-progress-no1.html</link>
+      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2022/05/23/2022-05-23-work-in-progress-no1.html</guid>
+      <description>20022-05-13 &amp;ldquo;PI meeting&amp;rdquo; We had our first progress report with the lab heads Profs. Larkum, Jochem, and Lindgraf. We used a two hours window to present the new team members, as well as our progresses, successes and failures. We are now sharing these with all of you. We hope you will enjoy this summary of our presentations and discussions.
+Introductions We started by using some extract of the interviews to illustrate the main issues we tackle, that is the discrepancy between :</description>
+    </item>
+    
+    <item>
+      <title>Scope of the Open.Make project.</title>
+      <link>/blog/2021/09/27/2021-09-27-scope.html</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2021/09/27/2021-09-27-scope.html</guid>
+      <description>The problem(s) Have you ever tried to follow instructions on how to assemble something and get stuck, either due to a lack of clarity or missing information? This can be annoying enough when you are trying to setup a new piece of furniture, but when your goal is to replicate someone&amp;rsquo;s research1, these annoyances create an additional burden. In the worst case, the research cannot be replicated and the research process is significantly slowed down.</description>
+    </item>
+    
+  </channel>
+</rss>

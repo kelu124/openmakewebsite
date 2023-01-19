@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FAIR4RH on Towards open and FAIR hardware</title>
+    <link>/categories/fair4rh.html</link>
+    <description>Recent content in FAIR4RH on Towards open and FAIR hardware</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="/categories/fair4rh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>defining FAIR for research hardware</title>
+      <link>/blog/2021/11/10/2021-11-12-fair4rh.html</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2021/11/10/2021-11-12-fair4rh.html</guid>
+      <description>This blog post will present our progresses in our work on defining FAIR for research hardware. It has been updated, you can see its history on github.
+Summary After a gosh forum entry and initial meetings, we have created a RDA group for FAIR hardware: httpS://rd-alliance.org/groups/fair-principles-research-hardware. The group has agreed on a charter that has been endorsed by the RDA. Our next tasks are:
+ Preparing the plenary and get more members Work on the definition of open hardware.</description>
+    </item>
+    
+  </channel>
+</rss>

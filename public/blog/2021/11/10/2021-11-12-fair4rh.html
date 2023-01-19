@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>defining FAIR for research hardware</title>
+<meta name="author" content="julien colomb" />
+
+
+
+
+<meta name="keywords" content="devows, hugo, go, open hardware, FAIR principles">
+
+
+<meta name="description" content="Open.make aims at fostering open and FAIR hardware production in academia, and build the foundation of a recognition system for academic makers.">
+
+<meta name="generator" content="Hugo 0.83.1" />
+
+
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="../../../../css/animate.css" rel="stylesheet">
+
+
+<link href="../../../../css/animate.css" rel="stylesheet">
+
+
+
+  <link href="../../../../css/style.violet.css" rel="stylesheet" id="theme-stylesheet">
+
+
+
+<link href="../../../../css/custom.css" rel="stylesheet">
+
+
+
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+
+<link rel="shortcut icon" href="../../../../img/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="../../../../img/apple-touch-icon.png" />
+
+
+<link href="../../../../css/owl.carousel.css" rel="stylesheet">
+<link href="../../../../css/owl.theme.css" rel="stylesheet">
+
+
+<link rel="alternate" href="../../../../index.xml" type="application/rss+xml" title="Towards open and FAIR hardware">
+
+
+
+
+
+
+
+
+<meta property="og:locale" content="en_us">
+<meta property="og:site_name" content="Towards open and FAIR hardware">
+<meta property="og:title" content="defining FAIR for research hardware">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/blog/2021/11/10/2021-11-12-fair4rh.html" />
+<meta property="og:description" content="Open.make aims at fostering open and FAIR hardware production in academia, and build the foundation of a recognition system for academic makers.">
+<meta property="og:image" content="/img/banners/FAIR.jpg">
+<meta property="og:image:type" content="image/jpg">
+
+
+
+  <meta property="og:image:width" content="5684">
+  <meta property="og:image:height" content="1794">
+
+
+<meta property="og:updated_time" content="2021-11-10T00:00:00Z">
+
+  
+  
+  <meta property="article:section" content="FAIR4RH">
+  
+  
+  <meta property="article:published_time" content="2021-11-10T00:00:00Z">
+  <meta property="article:modified_time" content="2021-11-10T00:00:00Z">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="twitter:title" content="defining FAIR for research hardware">
+
+<meta name="twitter:image" content="/img/banners/FAIR.jpg">
+
+<meta name="twitter:description" content="Open.make aims at fostering open and FAIR hardware production in academia, and build the foundation of a recognition system for academic makers.">
+
+
+    
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  </head>
+
+  <body>
+
+    <div id="all">
+
+        <header class="navbar-affixed-top" data-spy="affix" data-offset-top="62">
+    <div class="navbar navbar-default yamm" role="navigation" id="navbar">    
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand home" href="../../../../">
+                    
+                      <img src="../../../../img/logo.svg" alt="defining FAIR for research hardware logo" class="hidden-xs hidden-sm" />
+                      <img src="../../../../img/logo.svg" alt="defining FAIR for research hardware logo" class="visible-xs visible-sm" />
+                    
+                    <span class="sr-only">defining FAIR for research hardware - go to homepage</span>
+                </a>
+                <div class="navbar-buttons">
+                    <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
+                      <span class="sr-only">Toggle Navigation</span>
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+                </div>
+            </div>
+            
+
+            <div class="navbar-collapse collapse" id="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                  
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="../../../../">Home</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="../../../../blog/2021/09/27/2021-09-27-scope/">Project scope</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="../../../../#features">Work packages</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="../../../../related/">Collaborate!</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+                    
+                  
+
+                  
+
+                  
+                  <li class="dropdown active">
+                    <a href="../../../../blog/">Blog</a>
+                  </li>
+                  
+                  
+                  
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+                  <li class="dropdown ">
+                    <a href="../../../../contact/">Contact</a>
+                  </li>
+                  
+                  
+                </ul>
+            </div>
+            
+
+            <div class="collapse clearfix" id="search">    
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</header>
+
+
+
+
+        <div id="heading-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>defining FAIR for research hardware</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div id="content">
+            <div class="container">
+
+                <div class="row">
+
+                    
+
+                    <div class="col-md-9" id="blog-post">
+
+                        
+                          <p class="text-muted text-uppercase mb-small text-right">
+                            
+                             | 
+                            
+                              
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                                  
+                              
+                              November 10, 2021
+                            
+                          </p>
+                        
+
+                        <div id="post-content">
+                          <p>This blog post will present our progresses in our work on defining FAIR for research hardware.
+It has been updated, you can see <a href="https://github.com/open-make/openmakewebsite/commits/main/content/blog/2021-11-12-FAIR4RH">its history on github</a>.</p>
+<h1 id="summary">Summary</h1>
+<p>After a gosh forum entry and initial meetings, we have created a RDA group for FAIR hardware: httpS://rd-alliance.org/groups/fair-principles-research-hardware.
+The group has agreed on a charter that has been endorsed by the RDA.
+Our next tasks are:</p>
+<ul>
+<li>Preparing the plenary and get more members</li>
+<li>Work on the definition of open hardware.</li>
+</ul>
+<p>Refer to the group page for history of emails and minutes of meetings.
+We only give a very short history here.
+Minutes were taken via an etherpad: <a href="https://etherpad.hu-berlin.de/ep/p/g.b9vQvzly2nMJWI6l$FAIR4RH-1">https://etherpad.hu-berlin.de/ep/p/g.b9vQvzly2nMJWI6l$FAIR4RH-1</a>
+Documents were worked in a googledoc: <a href="https://docs.google.com/document/d/14vQR_24OXVOLGcEB1frAYqKbRZ_Gc8Dtk6bG25720ks/edit?usp=sharing">https://docs.google.com/document/d/14vQR_24OXVOLGcEB1frAYqKbRZ_Gc8Dtk6bG25720ks/edit?usp=sharing</a></p>
+<p>PLEASE JOIN THE RDA GROUP IF YOU HAVE INTEREST IN THIS QUESTION !
+<a href="https://www.rd-alliance.org/user/login?destination=group/node/74820/subscribe/og_user_node">https://www.rd-alliance.org/user/login?destination=group/node/74820/subscribe/og_user_node</a></p>
+<h1 id="project-history">Project History</h1>
+<h2 id="first-meeting-2021-11-03">First meeting (2021-11-03)</h2>
+<p>After calling for participants <a href="https://forum.openhardware.science/t/defining-fair-for-hardware/3167/5">via the GOSH forum</a>,
+we pulled a group of about 12 interested people.</p>
+<p>We met online on November the third,
+about half of the interested people could make it.
+During this one hour meeting, we presented shortly our relation to hardware.
+Julien Colomb then presented the Open.Make project and
+the reasons why we wanted to define
+<a href="https://www.go-fair.org/fair-principles/">FAIR principles</a>
+(insisting on the differences between using principles over standards or
+guidelines) for hardware.</p>
+<p>He also shortly presented the main outputs of his discussion with Daniel Katz,
+who has been involved in the development of <a href="https://rd-alliance.org/group/fair-research-software-fair4rs-wg/outcomes/fair-principles-research-software-fair4rs">FAIR for research software</a>,
+and the <a href="https://www.force11.org/group/software-citation-working-group">software citation group</a>.
+They used RDA and Force in order to maximise the visibility of their output,
+and the RDA working group was an enabler,
+mostly by setting deadlines to the group.</p>
+<p>Then, Nadica Miljković presented the work they have been doing to define FAIR
+for hardware, see  <a href="https://zenodo.org/record/5524414,">https://zenodo.org/record/5524414,</a>
+she especially talked about table 2.
+We then discussed what this group could bring to that previous initiative,
+and came to these conclusions:</p>
+<ul>
+<li>Getting community feedback and review of the principles.</li>
+<li>Producing a more complete document (similar to the FAIR4RS one).</li>
+<li>Maximizing outreach and adoption of the principles.</li>
+</ul>
+<p>We also discussed what strategey would be the most effective,
+and the most suited to our own schedule and tasks.</p>
+<ul>
+<li>RDA working groups comes with a big commitment in terms of time to invest.</li>
+<li>FORCE11 groups (and RDA interest groups) are more loose and flexible.</li>
+<li>Another strategy discussed was to take the paper in its form and get it endorsed
+and signed by the community, similar to what the TOP guidelines did.</li>
+</ul>
+<p>Finally, we ended the meeting, with giving us the task to draft a putative action
+plan/vision, in order to discuss it during the next meeting. Here it is!</p>
+<img src="images/Untitled Diagram.drawio-3.png" alt="Putative work plans for the FAIR4RH group" width="100%"/>
+<p><em>Two different timelines depending whether we would like to do a RDA WG (up) or not (below), on the upper right are some putative working groups that would deal with different approaches for the definition of FAIR for hardware.</em></p>
+<h2 id="second-meeting">Second meeting</h2>
+<p>After presenting the timelines plans, we decided to go for a RDA interest group,
+and we hope to get a first declaration for the end of the open.make project in 2023.
+The RDA group attracted other members, notably from other RDA groups.</p>
+<hr>
+<p>There are still many question that remain to be answered, the following ones
+came into our internal (open.make) discussions:</p>
+<ul>
+<li>Can we apply the FAIR principles to hardware in general, or are there particularities for different types of hardware</li>
+<li>Define where principles stops and specifications starts</li>
+<li>How FAIR principles are/will be related to hardware publication</li>
+<li>What outputs for the group (RDA document, paper,&hellip;)</li>
+</ul>
+<p>RDA first meeting is meant for January 2022.</p>
+<h2 id="rda-meetings">RDA meetings</h2>
+<h3 id="2022-01">2022-01</h3>
+<ul>
+<li>decision to use email as a communication channel</li>
+<li>work on the charter.</li>
+</ul>
+<h3 id="2022-02">2022-02</h3>
+<ul>
+<li>Charter discussion.</li>
+<li>link from louise: <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854">https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007854</a></li>
+</ul>
+<h3 id="2022-03">2022-03</h3>
+<ul>
+<li>Discussion research hardware definition:</li>
+</ul>
+<h3 id="2022-04">2022-04</h3>
+<ul>
+<li>Discussion research hardware definition</li>
+<li>Plenary preparation</li>
+</ul>
+
+                        </div>
+                        
+                        
+
+                    </div>
+                    
+
+                    
+
+                    
+
+                    <div class="col-md-3">
+
+                        
+
+                        
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+      <h3 class="panel-title">Search</h3>
+    </div>
+
+    <div class="panel-body">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" role="search">
+            <div class="input-group">
+                <input type="search" name="q" class="form-control" placeholder="Search">
+                <input type="hidden" name="sitesearch" value="/">
+                <span class="input-group-btn">
+                    <button type="submit" class="btn btn-template-main"><i class="fas fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="panel panel-default sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Categories</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            
+            
+            <li>
+                <a href="../../../../categories/fair4rh">FAIR4RH (1)</a>
+            </li>
+            
+            <li>
+                <a href="../../../../categories/interview">INTERVIEW (1)</a>
+            </li>
+            
+            <li>
+                <a href="../../../../categories/position">POSITION (1)</a>
+            </li>
+            
+            <li>
+                <a href="../../../../categories/progress-report">PROGRESS-REPORT (2)</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="panel sidebar-menu">
+
+    <div class="panel-heading">
+        <h3 class="panel-title">Tags</h3>
+    </div>
+
+    <div class="panel-body">
+        <ul class="tag-cloud">
+            
+            
+            <li>
+                <a href="../../../../tags/bua"><i class="fas fa-tags"></i> bua</a>
+            </li>
+            
+            <li>
+                <a href="../../../../tags/collaboration"><i class="fas fa-tags"></i> collaboration</a>
+            </li>
+            
+            <li>
+                <a href="../../../../tags/goals"><i class="fas fa-tags"></i> goals</a>
+            </li>
+            
+            <li>
+                <a href="../../../../tags/grant"><i class="fas fa-tags"></i> grant</a>
+            </li>
+            
+            <li>
+                <a href="../../../../tags/job"><i class="fas fa-tags"></i> job</a>
+            </li>
+            
+            <li>
+                <a href="../../../../tags/kickoff"><i class="fas fa-tags"></i> kickoff</a>
+            </li>
+            
+            <li>
+                <a href="../../../../tags/open-hardware"><i class="fas fa-tags"></i> open-hardware</a>
+            </li>
+            
+            <li>
+                <a href="../../../../tags/personal-story"><i class="fas fa-tags"></i> personal-story</a>
+            </li>
+            
+            <li>
+                <a href="../../../../tags/progress"><i class="fas fa-tags"></i> progress</a>
+            </li>
+            
+            <li>
+                <a href="../../../../tags/scope"><i class="fas fa-tags"></i> scope</a>
+            </li>
+            
+            <li>
+                <a href="../../../../tags/team-work"><i class="fas fa-tags"></i> team-work</a>
+            </li>
+            
+            <li>
+                <a href="../../../../tags/technology"><i class="fas fa-tags"></i> technology</a>
+            </li>
+            
+        </ul>
+    </div>
+
+</div>
+
+
+
+
+
+
+                        
+
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+
+            </div>
+            
+        </div>
+        
+
+        <footer id="footer">
+    <div class="container">
+
+        
+        <div class="col-md-4 col-sm-6">
+            <h4>About us</h4>
+
+            <p>This website presents the open.make project: towards open and FAIR hardware. <br> Funded by the Federal Ministry of Education and Research (BMBF) and the state of Berlin under the Excellence Strategy of the Federal Government and the Länder / www.berlin-university-alliance.de <br> </p>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+        <div class="col-md-4 col-sm-6">
+
+            
+            <h4>Recent posts</h4>
+
+            <div class="blog-entries">
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="../../../../blog/2022/10/20/2022-10-06-interview-white-rabbit.html">
+                          
+                            <img src="../../../../img/banners/WRlogo-original.png" class="img-responsive" alt="Interview: White rabbit">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="../../../../blog/2022/10/20/2022-10-06-interview-white-rabbit.html">Interview: White rabbit</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="../../../../blog/2022/05/23/2022-05-23-work-in-progress-no1.html">
+                          
+                            <img src="../../../../img/banners/progress.jpg" class="img-responsive" alt="Work in progress - No1">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="../../../../blog/2022/05/23/2022-05-23-work-in-progress-no1.html">Work in progress - No1</a></h5>
+                    </div>
+                </div>
+                
+                <div class="item same-height-row clearfix">
+                    <div class="image same-height-always">
+                        <a href="../../../../blog/2021/11/10/2021-11-12-fair4rh.html">
+                          
+                            <img src="../../../../img/banners/FAIR.jpg" class="img-responsive" alt="defining FAIR for research hardware">
+                          
+                        </a>
+                    </div>
+                    <div class="name same-height-always">
+                        <h5><a href="../../../../blog/2021/11/10/2021-11-12-fair4rh.html">defining FAIR for research hardware</a></h5>
+                    </div>
+                </div>
+                
+            </div>
+
+            <hr class="hidden-md hidden-lg">
+            
+
+        </div>
+        
+
+        
+        <div class="col-md-4 col-sm-6">
+
+          <h4>Contact</h4>
+
+            Open.make <br> 
+
+            <a href="../../../../contact" class="btn btn-small btn-template-main">Go to contact page</a>
+
+            <hr class="hidden-md hidden-lg hidden-sm">
+
+        </div>
+        
+        
+
+    </div>
+    
+</footer>
+
+
+
+
+
+
+
+<div id="copyright">
+    <div class="container">
+        <div class="col-md-12">
+            
+            <p class="pull-left">Copyright (c) 2021, open.make team. All content is licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a></p>
+            
+            <p class="pull-right">
+                Website created with Rblogdown,
+              Template by <a href="https://bootstrapious.com/p/universal-business-e-commerce-template">Bootstrapious</a>.
+              
+
+              Ported to Hugo by <a href="https://github.com/devcows/hugo-universal-theme">DevCows</a>.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    </div>
+    
+
+    
+<script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"></script>
+
+
+<script src="../../../../js/front.js"></script>
+
+
+<script src="../../../../js/owl.carousel.min.js"></script>
+
+
+
+  </body>
+</html>

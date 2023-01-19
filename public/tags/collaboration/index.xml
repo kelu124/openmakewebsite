@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>collaboration on Towards open and FAIR hardware</title>
+    <link>/tags/collaboration.html</link>
+    <description>Recent content in collaboration on Towards open and FAIR hardware</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/collaboration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open.Make kickoff meeting.</title>
+      <link>/blog/2021/10/07/2021-10-07-kickoff.html</link>
+      <pubDate>Thu, 07 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2021/10/07/2021-10-07-kickoff.html</guid>
+      <description>On October 7th 2021, the Open.Make project kickoff meeting took place at the Charité campus in Mitte. The three research partners/labs, the project officer from the Berlin University Alliance (BUA) and three invited external partners presented and discussed their respective works. It was a successful meeting as it offered a broad overview of the benefits of open hardware in academia and beyond. While it was originally planned as fully in-person, the meeting had to be shifted to a hybrid meeting, as two participants could not come to the meeting location.</description>
+    </item>
+    
+    <item>
+      <title>Scope of the Open.Make project.</title>
+      <link>/blog/2021/09/27/2021-09-27-scope.html</link>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2021/09/27/2021-09-27-scope.html</guid>
+      <description>The problem(s) Have you ever tried to follow instructions on how to assemble something and get stuck, either due to a lack of clarity or missing information? This can be annoying enough when you are trying to setup a new piece of furniture, but when your goal is to replicate someone&amp;rsquo;s research1, these annoyances create an additional burden. In the worst case, the research cannot be replicated and the research process is significantly slowed down.</description>
+    </item>
+    
+    <item>
+      <title>Genesis of the open.make project.</title>
+      <link>/blog/2021/08/31/2021-08-31-genesis.html</link>
+      <pubDate>Tue, 31 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2021/08/31/2021-08-31-genesis.html</guid>
+      <description>On September 1st the Berlin university alliance project Open.make: toward open and FAIR hardware has officially started. Three labs that work together for the first time will collaborate and design a social and technical infrastructure, in order to foster open and FAIR hardware publication and recognition. In this post, we will describe how the idea was developed over a short period of time following the publication of a BUA call.</description>
+    </item>
+    
+  </channel>
+</rss>

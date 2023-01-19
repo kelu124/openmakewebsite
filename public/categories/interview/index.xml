@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>interview on Towards open and FAIR hardware</title>
+    <link>/categories/interview.html</link>
+    <description>Recent content in interview on Towards open and FAIR hardware</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/interview/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interview: White rabbit</title>
+      <link>/blog/2022/10/20/2022-10-06-interview-white-rabbit.html</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2022/10/20/2022-10-06-interview-white-rabbit.html</guid>
+      <description>Interview: White rabbit by the Open make team, Javier Serrano and Amanda Diez Frenandez. Copyright to the authors, distributed under a CC-BY 4.0 licence.
+Sections:
+ The project The Hardware The Research outputs The participants  Banner image: white rabbit logo, By CERN, distributed under a CC-BY-SA 4.0
+ Interviewee: Javier Serrano (CERN) &amp;amp; Amanda Diez Fernandez (CERN)
+Interviewers: Robert Mies (TU Berlin) &amp;amp; Moritz Maxeiner (FU Berlin)
+Transcription and editing: Diana Paola Americano Guerrero, Robert Mies, Moritz Maxeiner &amp;amp; Julien Colomb</description>
+    </item>
+    
+  </channel>
+</rss>

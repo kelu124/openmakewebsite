@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>progress report on Towards open and FAIR hardware</title>
+    <link>/categories/progress-report.html</link>
+    <description>Recent content in progress report on Towards open and FAIR hardware</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/progress-report/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Work in progress - No1</title>
+      <link>/blog/2022/05/23/2022-05-23-work-in-progress-no1.html</link>
+      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2022/05/23/2022-05-23-work-in-progress-no1.html</guid>
+      <description>20022-05-13 &amp;ldquo;PI meeting&amp;rdquo; We had our first progress report with the lab heads Profs. Larkum, Jochem, and Lindgraf. We used a two hours window to present the new team members, as well as our progresses, successes and failures. We are now sharing these with all of you. We hope you will enjoy this summary of our presentations and discussions.
+Introductions We started by using some extract of the interviews to illustrate the main issues we tackle, that is the discrepancy between :</description>
+    </item>
+    
+    <item>
+      <title>Genesis of the open.make project.</title>
+      <link>/blog/2021/08/31/2021-08-31-genesis.html</link>
+      <pubDate>Tue, 31 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2021/08/31/2021-08-31-genesis.html</guid>
+      <description>On September 1st the Berlin university alliance project Open.make: toward open and FAIR hardware has officially started. Three labs that work together for the first time will collaborate and design a social and technical infrastructure, in order to foster open and FAIR hardware publication and recognition. In this post, we will describe how the idea was developed over a short period of time following the publication of a BUA call.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Towards open and FAIR hardware</title>
+    <link>/tags.html</link>
+    <description>Recent content in Tags on Towards open and FAIR hardware</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>open hardware</title>
+      <link>/tags/open-hardware.html</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/open-hardware.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personal story</title>
+      <link>/tags/personal-story.html</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/personal-story.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technology</title>
+      <link>/tags/technology.html</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/technology.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>progress</title>
+      <link>/tags/progress.html</link>
+      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/progress.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scope</title>
+      <link>/tags/scope.html</link>
+      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/scope.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>job</title>
+      <link>/tags/job.html</link>
+      <pubDate>Mon, 25 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/job.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BUA</title>
+      <link>/tags/bua.html</link>
+      <pubDate>Thu, 07 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/bua.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>collaboration</title>
+      <link>/tags/collaboration.html</link>
+      <pubDate>Thu, 07 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/collaboration.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>goals</title>
+      <link>/tags/goals.html</link>
+      <pubDate>Thu, 07 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/goals.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>grant</title>
+      <link>/tags/grant.html</link>
+      <pubDate>Thu, 07 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/grant.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kickoff</title>
+      <link>/tags/kickoff.html</link>
+      <pubDate>Thu, 07 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/kickoff.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>team work</title>
+      <link>/tags/team-work.html</link>
+      <pubDate>Thu, 07 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/team-work.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
