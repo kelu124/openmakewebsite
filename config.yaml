@@ -7,8 +7,6 @@ disqusShortname:
 googleAnalytics: ''
 summaryLength: 70
 paginate: 10
-relativeURLs: true
-uglyURLs: true
 markup:
   goldmark:
     renderer:
@@ -67,7 +65,7 @@ params:
     pagination_speed: 1000
     slide_speed: 2000
   carouselHomepage:
-    auto_play: no
+    auto_play: yes
     enable: yes
     pagination_speed: 1000
     slide_speed: 2000
@@ -96,7 +94,7 @@ params:
   enableRecaptchaInContactForm: no
   facebook_site: ''
   features:
-    cols: 3
+    cols: 4
     enable: yes
   footer:
     recent_posts:
